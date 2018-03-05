@@ -1,6 +1,6 @@
-// module.exports = function getZerosCount(number, base) {
-let number = 19848293;
-let base = 192;
+module.exports = function getZerosCount(number, base) {
+// let number = 19848293;
+// let base = 192;
     let tempBase = base;
     let del = 2;
     let dividers = [];
@@ -27,5 +27,5 @@ let base = 192;
     }
     console.log(dividers);
     console.log(max);
-    // return (Math.floor(sum / count));
-// }
+    return (Math.floor(sum / count));
+}
